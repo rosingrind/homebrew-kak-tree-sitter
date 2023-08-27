@@ -5,6 +5,12 @@ class Ktsctl < Formula
   sha256 "4d3cc6c2c57f0ae9d7ca6abefa7f174db27751bce7f67c98e6b185500228ac11"
   license "BSD-3-Clause"
 
+  bottle do
+    root_url "https://github.com/rosingrind/homebrew-kak-tree-sitter/releases/download/ktsctl-0.3.0"
+    sha256 cellar: :any_skip_relocation, ventura:      "4f9bc9dfeb1e39a0ff51eec3ee166fe6a55ef0a8f5ce0b9fbbc9eb5b56f43ead"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "34a16c74346238f1a2417e18433253d11999b10d1ac6694c228c853eb7469f41"
+  end
+
   depends_on "rust" => :build
 
   def install
