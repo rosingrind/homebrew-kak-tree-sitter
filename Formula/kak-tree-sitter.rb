@@ -1,8 +1,8 @@
 class KakTreeSitter < Formula
   desc "Tree-sitter server for Kakoune"
   homepage "https://github.com/phaazon/kak-tree-sitter"
-  url "https://github.com/phaazon/kak-tree-sitter/archive/refs/tags/kak-tree-sitter-v0.4.0.tar.gz"
-  sha256 "26a3418935dae0b398ffcb485e37acaa274e744b224611589acfbebf4b46fdde"
+  url "https://github.com/phaazon/kak-tree-sitter/archive/refs/tags/kak-tree-sitter-v0.4.1.tar.gz"
+  sha256 "ca9c99de72ada0807fbf5a1fe2844878315ce6b161e8d04bd5c0ca54445fdeb5"
   license "BSD-3-Clause"
 
   bottle do
@@ -27,6 +27,6 @@ class KakTreeSitter < Formula
     #
     # The installed folder is not in the path, so use the entire path to any
     # executables being tested: `system "#{bin}/program", "do", "something"`.
-    assert_match "--verbose", shell_output("#{bin}/kak-tree-sitter --help")
+    assert_match "--session", shell_output("#{bin}/kak-tree-sitter --help")
   end
 end
