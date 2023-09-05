@@ -1,8 +1,8 @@
 class KakTreeSitter < Formula
   desc "Tree-sitter server for Kakoune"
   homepage "https://github.com/phaazon/kak-tree-sitter"
-  url "https://github.com/phaazon/kak-tree-sitter/archive/refs/tags/kak-tree-sitter-v0.4.3.tar.gz"
-  sha256 "5391e0236dd3429ebc0835733425f85ff2849b567b803bda230aa4e0626bd6a5"
+  url "https://github.com/phaazon/kak-tree-sitter/archive/refs/tags/kak-tree-sitter-v0.4.4.tar.gz"
+  sha256 "c4334ea2d5077a6681617d830f64a3cfa5fddc8bb50a5a97fa3cf07c930f0241"
   license "BSD-3-Clause"
 
   bottle do
