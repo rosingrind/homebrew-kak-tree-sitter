@@ -1,8 +1,8 @@
 class Ktsctl < Formula
   desc "CLI controller for kak-tree-sitter"
   homepage "https://github.com/phaazon/kak-tree-sitter"
-  url "https://github.com/phaazon/kak-tree-sitter/archive/refs/tags/ktsctl-v0.3.1.tar.gz"
-  sha256 "d21db2fe6fde4e5d7f50adaa90e801e08dedf34898f69f808a3590a1659499fc"
+  url "https://github.com/phaazon/kak-tree-sitter/archive/refs/tags/ktsctl-v0.3.2.tar.gz"
+  sha256 "07748705311a70811215e69c0c016f0e75250fc4764f1d080ab00ef88e2eb69f"
   license "BSD-3-Clause"
 
   bottle do
