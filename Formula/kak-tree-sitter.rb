@@ -6,9 +6,9 @@ class KakTreeSitter < Formula
   license "BSD-3-Clause"
 
   bottle do
-    root_url "https://github.com/rosingrind/homebrew-kak-tree-sitter/releases/download/kak-tree-sitter-0.4.6"
-    sha256 cellar: :any_skip_relocation, ventura:      "b355babf9ee18955f035bf42819ba42ff5a42f89e2490eddaa2f779676cc72c7"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "6492ddabec674a62444aa273e356fa514d560c5bbe3faeabfdecf57a962b20c4"
+    root_url "https://github.com/rosingrind/homebrew-kak-tree-sitter/releases/download/kak-tree-sitter-0.5.0"
+    sha256 cellar: :any_skip_relocation, ventura:      "bc8cd497657893ae58fa4a38c41f04c8293f7ef82cc79e244219ec55d9ff2877"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "ce0fc88ba5f4f9f0b059f8b5f2fc34b71af792beaf83a093c89b81fc11805f89"
   end
 
   depends_on "rust" => :build
