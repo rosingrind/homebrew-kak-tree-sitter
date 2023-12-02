@@ -6,9 +6,9 @@ class Ktsctl < Formula
   license "BSD-3-Clause"
 
   bottle do
-    root_url "https://github.com/rosingrind/homebrew-kak-tree-sitter/releases/download/ktsctl-0.3.2"
-    sha256 cellar: :any_skip_relocation, ventura:      "1b09ddbe11ef634d601fd6d6d33ccb0f01b315b79b4c0ea381b1b7c6b8f9f173"
-    sha256 cellar: :any_skip_relocation, x86_64_linux: "86ba73e3cd1f2db9520aac0f4464f34d0908c6f667f1fbe8396b077f6997b21d"
+    root_url "https://github.com/rosingrind/homebrew-kak-tree-sitter/releases/download/ktsctl-0.3.3"
+    sha256 cellar: :any_skip_relocation, ventura:      "d7634bc78444782294fb0eea40faba19d609f1b37f310cd7cd9cfff86f1f7d30"
+    sha256 cellar: :any_skip_relocation, x86_64_linux: "a6ec7c84aa62f666f7f3ea9d2163cdb8566140198d27e6fd5560302d8fc9d11f"
   end
 
   depends_on "rust" => :build
